@@ -45,10 +45,6 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Python # 
-*.py[cod] 
-*$py.class 
-
 # Distribution / packaging 
 .Python build/ 
 develop-eggs/ 
