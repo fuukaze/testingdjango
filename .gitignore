@@ -3,6 +3,8 @@
 *.pot
 *.pyc
 __pycache__
+db.sqlite3
+media
 
 # Backup files # 
 *.bak 
@@ -42,6 +44,10 @@ out/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
+
+# Python # 
+*.py[cod] 
+*$py.class 
 
 # Distribution / packaging 
 .Python build/ 
@@ -89,6 +95,15 @@ celerybeat-schedule.*
 
 # SageMath parsed files 
 *.sage.py 
+
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
 
 # mkdocs documentation 
 /site 
